@@ -26,6 +26,20 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!--import css: sign up mailchimp-->
+  <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+  <style type="text/css">
+    #mc_embed_signup {
+      background: #fff;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+    }
+
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  <!--end import css: sign up mailchimp-->
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -87,32 +101,39 @@
                     giản. Là một sinh viên mới ra trường, bạn cần phải học, học rất nhiều kiến thức mới, học môi trường
                     làm việc, học cách tương tác với dev, học từ các dự án. Đừng lo lắng vì đã có Testerschool đồng hành
                     cùng các bạn. Bạn đã sẵn sàng để bắt đầu hành trình?</p>
-                  <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">BẮT
-                      ĐẦU NGAY</a></p>
-
                 </div>
 
-                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                  <form action="" method="post" class="form-box">
-                    <h3 class="h4 text-black mb-4">Sign Up</h3>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Addresss">
+                <!--sign up form mailchimp-->
+                <div id="mc_embed_signup" class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
+                  <form
+                    action="https://gmail.us20.list-manage.com/subscribe/post?u=bfd86c8e4826eab4e18acda37&amp;id=fdf26041be"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                    class="form-box validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll ">
+                      <h2 style="color:black">Đăng ký nhận bài viết</h2>
+                      <p style="color:black">Testerschool sẽ gửi đến bạn những kiến thức testing mới nhất khi bạn đăng
+                        ký</p>
+                      <div class="mc-field-group form-group">
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email form-control"
+                          placeholder="Email Addresss" id="mce-EMAIL">
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password">
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
                     </div>
-                    <div class="form-group mb-4">
-                      <input type="password" class="form-control" placeholder="Re-type Password">
-                    </div>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-primary btn-pill" value="Sign up">
-                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_bfd86c8e4826eab4e18acda37_fdf26041be" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Đăng ký ngay" name="subscribe"
+                        id="mc-embedded-subscribe" class="btn btn-primary py-3 px-5 btn-pill"></div>
+
                   </form>
-
                 </div>
+                <!--end sign up form mailchimp-->
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -130,12 +151,9 @@
       </div>
     </div>
     <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
-      <!-- <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100"> -->
       <div class="container">
         <div class="row">
-
           <div class="owl-carousel col-12 nonloop-block-14">
-
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
                 <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
@@ -429,7 +447,8 @@
                 <!-- <span class="course-price">2,000,000 vnd</span> -->
                 <!-- <div class="meta"><span class="icon-clock-o"></span>10 buổi học </div> -->
                 <h3><a href="#">1. Giới thiệu tổng quan về testing</a></h3>
-                <p>Kiểm thử phần mềm là gì? Tại sao kiểm thử phần mềm lại quan trọng. Những kĩ năng cần thiết để trở thành 1 tester chuyên nghiệp như kỹ năng công nghệ, kỹ năng mềm . Những phương thức kiểm thử </p>
+                <p>Kiểm thử phần mềm là gì? Tại sao kiểm thử phần mềm lại quan trọng. Những kĩ năng cần thiết để trở
+                  thành 1 tester chuyên nghiệp như kỹ năng công nghệ, kỹ năng mềm . Những phương thức kiểm thử </p>
               </div>
               <div class="d-flex border-top stats">
                 <div class="py-3 px-4 "><span><a href="blog/tong-quan-ve-kiem-thu-phan-mem.html">Chi tiết</a></span>
@@ -773,8 +792,18 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 
-
   <script src="js/main.js"></script>
+
+
+  <!--js sign up mailchimp-->
+  <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script> -->
+  <!-- <script
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+   -->
+  <!--End mc_embed_signup-->
+  <!--end js sign up mailchimp-->
+
+
 
 </body>
 
