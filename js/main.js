@@ -129,10 +129,10 @@ jQuery(document).ready(function($) {
 			$('.nonloop-block-13').owlCarousel({
 		    center: false,
 		    items: 1,
-		    loop: true,
+		    loop: false,
 				stagePadding: 0,
 		    margin: 0,
-		    autoplay: true,
+		    autoplay: false,
 		    nav: true,
 				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
 		    responsive:{
@@ -165,7 +165,7 @@ jQuery(document).ready(function($) {
 		    loop: true,
 				stagePadding: 0,
 		    margin: 0,
-		    autoplay: true,
+		    autoplay: false,
 		    dots: false,
 		    nav: false,
 				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
