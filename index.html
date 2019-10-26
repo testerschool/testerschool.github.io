@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,6 +42,19 @@
   </style>
   <!--end import css: sign up mailchimp-->
 
+  <!--Add GA-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150978652-1"></script>
+  <script>
+    //cd -> testerschool.github.io -> rồi mới dùng git được. git add .  , git commit -m "note" git push origin master
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150978652-1');
+  </script>
+
+  <!--end Add GA-->
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -101,6 +116,8 @@
                     giản. Là một sinh viên mới ra trường, bạn cần phải học, học rất nhiều kiến thức mới, học môi trường
                     làm việc, học cách tương tác với dev, học từ các dự án. Đừng lo lắng vì đã có Testerschool đồng hành
                     cùng các bạn. Bạn đã sẵn sàng để bắt đầu hành trình?</p>
+                  <p><a href="#courses-section" class="btn btn-primary py-3 px-5 btn-pill">BẮT
+                      ĐẦU NGAY</a></p>
                 </div>
 
                 <!--sign up form mailchimp-->
@@ -145,7 +162,10 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Khóa học</h2>
-            <span class="course-price" style="color:aliceblue">Học phí: 2,000,000 vnd</span>
+            <span class="course-price" style="color:aliceblue">Học phí: 2,500,000 vnd. </span><a
+              style="color: white;text-decoration: underline" href="#courses-section">Đăng ký ngay</a>
+            <p style="color:aliceblue">Khóa học testing cho người mới bắt đầu bao gồm: 10 buổi học kiến thức, 4 buổi
+              training on job, và 1 buổi hướng dẫn viết CV và luyện tập phỏng vấn.</p>
           </div>
         </div>
       </div>
@@ -218,8 +238,9 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Thực tập</h2>
-            <p>Các bạn được tham gia vào các dự án thực tế của các công ty, với những người hướng dẫn là các anh chị
-              tester kinh nghiệm
+            <p>Bạn được hướng dẫn bởi các anh chị tester có nhiều kinh nghiệm,
+              Bạn được làm việc với những dự án thực tế ngoài thị trường,
+              Bạn được hướng dẫn viết CV và luyện tập phỏng vấn với những anh chị leader.
 
             </p>
           </div>
@@ -332,8 +353,8 @@
               <div class="py-2">
                 <h3 class="text-black"><a href="https://www.facebook.com/ziczaczo">Nguyễn Đình Huỳnh</a></h3>
                 <!-- <p class="position">Assistant Manager</p> -->
-                <p>Tốt nghiệp học viện Công Nghệ Bưu Chính Viễn Thông bằng ưu. 
-                  Anh Huỳnh có nhiều năm kinh nghiệm trong lĩnh vực test mobile app. 
+                <p>Tốt nghiệp học viện Công Nghệ Bưu Chính Viễn Thông bằng ưu.
+                  Anh Huỳnh có nhiều năm kinh nghiệm trong lĩnh vực test mobile app.
                   Hiện đang giữ chức vụ phó phòng cấp cao tại tập đoàn Samsung.</p>
               </div>
             </div>
@@ -345,15 +366,15 @@
               <div class="py-2">
                 <h3 class="text-black"><a href="https://www.facebook.com/xuxu.smile193">Phạm Thu Trang</a></h3>
                 <!-- <p class="position">Senior Tester</p> -->
-                <p>Tốt nghiệp đại học Khoa Học Tự Nhiên bằng ưu. 
+                <p>Tốt nghiệp đại học Khoa Học Tự Nhiên bằng ưu.
                   Thu Trang có nhiều kinh nghiệm làm việc với FPT và nhiều startup từ
                   khutro, đến KyberNetwork </p>
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="teacher text-center" >
+            <div class="teacher text-center">
               <img src="images/gv_tuyen.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black"><a href="https://www.facebook.com/tuyen.khuc">Khuc Van Tuyen</a></h3>
@@ -635,11 +656,14 @@
 
           <div class="col-md-4" style="word-wrap: break-word;">
             <h3>Trò chuyện với Testerschool </h3>
-            <p>Bạn có điều muốn hỏi, bạn có chuyện cần người tâm sự, bạn muốn kiếm người yêu bla bla... Hãy liên hệ với bọn mình theo form sau nhé:</p>
+            <p>Bạn có điều muốn hỏi, bạn có chuyện cần người tâm sự, bạn muốn kiếm người yêu bla bla... Hãy liên hệ với
+              bọn mình theo form sau nhé:</p>
             <form action="#" class="footer-subscribe">
               <div class="d-flex mb-5">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHKYlvG0ENYbCVnBHcZ0lRHZQ0S6KjdI5PtQTTtHR5z3VIvg/viewform">Form trò chuyện</a>
-                
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdHKYlvG0ENYbCVnBHcZ0lRHZQ0S6KjdI5PtQTTtHR5z3VIvg/viewform">Form
+                  trò chuyện</a>
+
                 <!-- <input type="text" class="form-control rounded-0" placeholder="Email">
                 <input type="submit" class="btn btn-primary rounded-0" value="Đăng ký"> -->
               </div>
